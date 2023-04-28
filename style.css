@@ -1,0 +1,44 @@
+h1 {
+    font-size:100px;
+    color:red;
+    text-align: center;
+    position:fixed;
+    top: 30px;
+}
+
+h3{
+    color:white;
+}
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size:  40px;
+    position: fixed;
+    top: 0px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display:block;
+    padding: 60px;
+}
+
+body {
+    background-image: url(/1200pxDungeons___Dragons_5th_Edition_logo.svg_1d3c4d48a15f4ff5b19c3bca6988fbaf_1200x1200.webp);
+    background-image: no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+
+footer {
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    height:2.5rem;
+}
