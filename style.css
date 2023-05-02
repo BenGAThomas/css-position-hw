@@ -5,6 +5,35 @@
     left: 1100px;
 }
 
+/* Mobile phones (portrait and landscape) ---------- */
+@media screen and (max-width: 767px){
+    .nav {
+        width: 100%;
+        padding: 5px 10px;
+    }
+}
+/* Tablets and iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .nav {
+        width: 750px;
+        padding: 5px 10px;
+    }
+}
+/* Low resolution desktops and laptops ---------- */
+@media screen and (min-width: 1024px) {
+    .nav {
+        width: 980px;
+        padding: 5px 15px;
+    }
+}
+/* High resolution desktops and laptops ---------- */
+@media screen and (min-width: 1280px) {
+    .nav {
+        width: 1200px;
+        padding: 5px 20px;
+    }
+}
+
 .imagine {
     position: absolute;
     display: block;
@@ -15,10 +44,7 @@
 .welcome {
     background-color: rgb(185, 185, 185);
     border:none;
-    margin: 350px 0px 0px 0px;
-
-    
-}
+ }
 
 .questions {
     text-align: center;
@@ -37,4 +63,9 @@
 footer {
     text-align: center;
     font-size: smaller;
+}
+
+body
+{
+    padding-top: 300px;
 }
