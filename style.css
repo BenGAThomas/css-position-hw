@@ -1,47 +1,36 @@
-h1 {
-    font-size:100px;
-    color:red;
-    text-align: center;
-    position:fixed;
-    top: 30px;
-}
-
-h3{
-    color:rgb(224, 21, 21);
-}
-
-ul {
-    list-style-type:none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    font-size:  40px;
+.logo {
+    display: block;
     position: fixed;
-    top: 0px;
+    top: 10px;
+    left: 1100px;
 }
 
-li {
-    float: left;
-}
-
-li a {
+.imagine {
+    position:fixed;
     display:block;
-    padding: 100px;
+    top: 10px;
+    left: 850px;
+
 }
 
-.home {
-    border: 20px solid rgb(243, 242, 242);
-    padding:60px;
-    margin:15px;
-    font-size:60px;
-    color: blue;
-    position:relative;
-    top: 500px;
+.welcome {
+    background-color: rgb(185, 185, 185);
+    border:none;
+    margin: 350px 0px 0px 0px;
 }
 
-.roles {
-    font-size:70px;
+.questions {
+    text-align: center;
+}
 
+.nav {
+    width: 1750px;
+    border: 1px solid;
+    position:fixed;
+    top: 190px;
+    left: 500px;
+    font-size: x-large;
+    color: #8080F0;
 }
 
 footer {
